@@ -3,7 +3,8 @@ The example prints the number of images found for a specific tag
 
 if imported, get_page(tags, page, per_page) can be used, the output looking like:
 
-```Imageswithtagcyberpunk: {
+```
+Imageswithtagcyberpunk: {
   'photos': {
     'page': 1,
     'pages': 492,
