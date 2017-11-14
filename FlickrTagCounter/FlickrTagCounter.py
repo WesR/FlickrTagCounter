@@ -7,7 +7,7 @@ import json, requests
 '''
 
 
-key = ''
+key = ''#dont forget
 rest_url = 'https://api.flickr.com/services/rest/'
 
 def image_count(page):
@@ -33,7 +33,7 @@ def main():
 
     imageCount = image_count(get_page(tag))
 
-    print("Images with tag " + tag + ":" + imageCount)
+    print("Images with tag " + tag + ": " + imageCount)
 
 
 if __name__ == "__main__":
