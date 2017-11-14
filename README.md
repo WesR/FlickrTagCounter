@@ -1,5 +1,5 @@
 # FlickrTagCounter
-The example prints the number of images found for a specific tag
+The example prints the number of images found for a specific tag, done to help a friend.
 
 if imported, get_page(tags, page, per_page) can be used, the output looking like:
 
